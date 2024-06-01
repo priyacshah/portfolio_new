@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.44fe37bc.css",
+    "main.js": "/static/js/main.8ab04051.js",
+    "static/js/496.cf46caa1.chunk.js": "/static/js/496.cf46caa1.chunk.js",
+    "static/media/rcesask.png": "/static/media/rcesask.9279ff40ebe7304cba64.png",
+    "static/media/me.png": "/static/media/me.06fef40af1d280135d8f.png",
+    "static/media/Priya_Shah_CV.pdf": "/static/media/Priya_Shah_CV.0612f1243c866c53b2e1.pdf",
+    "static/media/driver_distraction.jpeg": "/static/media/driver_distraction.7408a92b89c40cf5f462.jpeg",
+    "static/media/abiomed.png": "/static/media/abiomed.6883ec9095d8ceef1ce5.png",
+    "static/media/logo.png": "/static/media/logo.48ca1c2a3b84be96c783.png",
+    "static/media/worrynot.png": "/static/media/worrynot.8dbb2dc65a0848ba7b6e.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/sdwan.jpeg": "/static/media/sdwan.e31b45a28bbaa80ace6f.jpeg",
+    "static/media/avatar.svg": "/static/media/avatar.35df8b95930eb0f6dd6116c93c3979a9.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.44fe37bc.css.map": "/static/css/main.44fe37bc.css.map",
+    "main.8ab04051.js.map": "/static/js/main.8ab04051.js.map",
+    "496.cf46caa1.chunk.js.map": "/static/js/496.cf46caa1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44fe37bc.css",
+    "static/js/main.8ab04051.js"
+  ]
+}
