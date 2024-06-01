@@ -1,0 +1,12 @@
+services:
+  plex_homeserver:
+    image: plexinc/pms-docker
+    volumes:
+      - /home/jarvis/docker/plex/data:/config
+      - /home/jarvis/docker/plex/transcode:/transcode
+      - /home/jarvis/Movies:/data
+
+  priya-portfolio:
+    image: urvishrana/priya-portfoilio
+    ports:
+      - "7800:3000"
