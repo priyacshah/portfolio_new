@@ -1,12 +1,14 @@
-services:
-  plex_homeserver:
-    image: plexinc/pms-docker
-    volumes:
-      - /home/jarvis/docker/plex/data:/config
-      - /home/jarvis/docker/plex/transcode:/transcode
-      - /home/jarvis/Movies:/data
+version: '3'
 
-  priya-portfolio:
-    image: urvishrana/priya-portfoilio
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "7800:3000"
+      - "3000:3000"
+    volumes:
+      - .:/portfolio/priya
+    environment:
+      - NODE_ENV=production
+    command: npm start
