@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python, C, Shell and Groovy </b>
+                <b className="purple"> Python, C and Shell. </b>
               </i>
               <br />
               <br />
@@ -41,7 +41,7 @@ function Home2() {
               <br />
               <br />
               I do have knowledge in the fields of 
-              with <b className="purple">Network Computing, Web designing and Artificial Intelligence.</b> 
+              <b className="purple">Network Computing, Web designing and Artificial Intelligence.</b> 
               <br/><br/>Reach me out at: <b className="purple">priya.shah1545@gmail.com</b>
             </p>
             

@@ -12,6 +12,7 @@ import {
   DiSpark,
   DiPhp,
   DiDatabase,
+  
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -20,6 +21,7 @@ import {
   SiApachekafka,
   SiDocker,
   SiHtml5,
+  SiGrafana
 } from "react-icons/si";
 
 function Techstack() {
@@ -56,6 +58,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
         <h6>HTML</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGrafana/>
+        <h6>Grafana</h6>
       </Col>
     </Row>
   );

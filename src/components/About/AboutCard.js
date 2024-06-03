@@ -9,9 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi there, I am <span className="purple">Priya Shah </span>
-            from <span className="purple"> Saskatchewan, Canada.</span>
-            <br />Currently, I am pursuing Master of Engineering in Software systems at <span className="purple">University of Regina, Saskatchewan.</span>
-            <br /> I will be graduating in December, 2022. 
+            from <span className="purple"> Ottawa, Canada.</span>
+            <br />I pursued Master of Engineering in Software systems from <span className="purple">University of Regina, Saskatchewan </span>
+            and graduated in June, 2023. 
             <br />
             Apart from study and job, following are some other activities that I love to do!
           </p>
@@ -34,7 +34,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Nothing comes free and easy, work hard to make it easier and evolve! 🌞"{" "}
+            "Nothing comes free and easy, work hard to make it easier, and evolve! 🌞"{" "}
           </p>
           <footer className="blockquote-footer">Priya</footer>
         </blockquote>
