@@ -19,10 +19,12 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-
+    
+    - name: Prune old images
+      run: docker image prune
+      
     - name: Build Docker image
       run: docker build -t p2011/portfolio:latest .
 
     - name: Push Docker image to Docker Hub
       run: docker push p2011/portfolio:latest
-
