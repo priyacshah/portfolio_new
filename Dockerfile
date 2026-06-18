@@ -1,6 +1,8 @@
-FROM node:slim 
-WORKDIR /portfoilio/priya/
-COPY . /portfoilio/priya/
+FROM node:slim
+WORKDIR /portfolio/priya/
+COPY package*.json ./
 RUN npm install --legacy-peer-deps
+COPY . .
+RUN npm run build
 EXPOSE 3000
-CMD npm start 
+CMD npm start
